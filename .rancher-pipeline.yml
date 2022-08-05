@@ -14,7 +14,7 @@ stages:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
       buildContext: .
-      tag: example-helloserver:v1
+      tag: example-helloserver
 - name: Deploy
   steps:
   - applyYamlConfig:
